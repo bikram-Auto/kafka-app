@@ -26,7 +26,7 @@ async function init() {
             } else if (tinient.toLocaleLowerCase() === 'care') {
                 partition = 1;
             } else {
-                // Handle other values of tinient if needed
+                
                 console.error('Invalid tinient. Supported values are "apollo" and "care".');
                 return;
             }
